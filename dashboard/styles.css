@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.kiri {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.kanan {
+    width: 70%;
+    background-color: #ffffff;
+}
+
+.atas {
+    flex: 1;
+    background-color: #D4F6FF;
+    margin-bottom: 1px;
+    border-radius: 0px 40px 0px 0px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: left;
+    list-style-type: none;
+    
+    padding: 20px;
+    
+}
+
+.info a{
+    color: #fff;
+    text-decoration: none; 
+    line-height: 30px; 
+    font-size: 14px;
+}
+
+.element {
+    border: 1px solid color black;
+    border-radius: 50%;
+}
+
+.bawah {
+    flex: 2;
+    background-color: #005DA6;
+    border-radius: 0px 0px 40px 0px;
+    
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 80px;
+    margin: 20px;
+    height: 80px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+
+}
+
+.circle p{
+
+}
